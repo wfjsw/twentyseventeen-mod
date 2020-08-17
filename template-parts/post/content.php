@@ -51,11 +51,13 @@
     <?php endif; ?>
 
     <div class="entry-content">
-        <aside class="entry-excerpt-intro">
-            <blockquote>
-                <?php echo get_the_excerpt(); ?>
-            </blockquote>
-        </aside>
+        <?php if ('' !== get_the_excerpt()) : ?>
+            <aside class="entry-excerpt-intro">
+                <blockquote>
+                    <?php echo get_the_excerpt(); ?>
+                </blockquote>
+            </aside>
+        <?php endif; ?>
 
         <?php
         the_content(
