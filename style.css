@@ -1,0 +1,153 @@
+/*
+ Theme Name:   Twenty Seventeen Mod
+ Template:     twentyseventeen
+ Text Domain:  twentyseventeen-mod
+*/
+
+.entry-meta {
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+.page .entry-title {
+	font-size: 24px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+h2.widget-title { 
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.navigation-top .wrap {
+    padding: 0 2em !important;
+}
+
+.navigation-top a {
+    font-size: 16px;
+    font-size: 1rem;
+    padding: 15px 1.25em !important;
+}
+
+.site-header .navigation-top .menu-scroll-down {
+    top: 0 !important;
+}
+
+.site-branding-text {
+    text-shadow: 2px 2px 5px black;
+}
+
+@media screen and (min-width: 48em) {
+
+	.has-sidebar:not(.error404) #primary {
+		width: 64% !important; 
+	}
+
+	.has-sidebar #secondary {
+		width: 30% !important;
+	}
+
+}
+
+h2, .home.blog .entry-title {
+	font-weight: 300 !important;
+}
+
+.site-footer {
+	background-color: #0f0f0f;
+}
+
+.ccp-copyright {
+	font-size: 12px;
+	/* font-size: .6em; */
+	font-weight: 300;
+}
+
+.site-info {
+	width: 100% !important;
+}
+
+/* .has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
+	height: calc(100vh - 50px);
+} */
+
+.site-description {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+.site-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.comments-title {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+.comment-body .quote blockquote, .comment-body .quote .title {
+	background-color: #2b2b2b;
+	border-left: 5px solid #2980b9;
+	display: flex;
+	align-items: center;
+	font-style: normal;
+}
+
+.comment-author .avatar, .comment-content .avatar, .comment-respond .avatar {
+	border-radius: 50%;
+}
+
+.comment-body {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+
+.comment-content aside.quote {
+	margin-bottom: 1em;
+}
+
+.comment-body .quote .title {
+	color: #bdbdbd;
+}
+
+[class^="wp-block-"]:not(.wp-block-gallery) figcaption {
+	font-style: normal;
+}
+
+.blocks-gallery-caption, .wp-block-embed figcaption, .wp-block-image figcaption {
+	color: #9a9a9a;
+}
+
+h2.widget-title {
+	margin-bottom: 1.25em !important;
+}
+
+aside.entry-excerpt-intro {
+	margin-bottom: 1em;
+}
+
+aside.entry-excerpt-intro blockquote {
+    background-color: #2b2b2b;
+    border-left: 5px solid #2980b9;
+    display: flex;
+    align-items: center;
+	font-style: normal;
+	font-size: 1em;
+    padding: 0.8em;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    clear: both;
+}
